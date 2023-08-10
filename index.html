@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>laba №5</title>
+		<link rel="stylesheet" type="text/css" href="css/main3.css">
+		<style>
+			h1,p {
+				text-align:center;
+				font-family: "Comic Sans MS";
+			}
+			textarea{
+				width: 602px;
+				height: 40px;
+				font-family: "Comic Sans MS";
+			}
+		</style>		
+	</head>
+	<body background="6504918.jpg" width="100%" height="100%">
+		<form action="#" method="get" >
+			<h1>Регистрация на аниме-фест</h1>
+			<div class="div1">
+				<label for="fname">фио</label>
+				<input type="text" name="fname" id="fname">
+			</div>
+			<div class="div2">
+				<label for="email">логин</label>
+				<input type="email" id="email">
+			</div>
+			<div class="div3">
+				<label for="pass">пароль</label>
+				<input type="password" name="pass" id="pass"><br><br>
+			</div>
+			<div class="div4">
+				<textarea name="abstracts" rows="4" cols="80" id="abstracts" placeholder="Пожалуйста, кратко опишите в каком косплее вы будете（*＾-＾*）"></textarea>
+			</div>
+			
+			<div class="radioknopka1">
+				<p>Сколько человек будет с вами на фестивале?</p><br>
+				<input type="radio" name="woy" value="я буду одна">
+				<label for="radio">я буду одна</label><br>
+				<input type="radio" name="woy" value="со мной будут еще люди">
+				<label for="radio">со мной будут еще люди</label>
+			</div>
+			<div class="radioknopka2">
+				<p>Вам нужна гримерка?</p>
+				<input type="radio" name="!)" value="да">
+				<label for="radio">да</label><br>
+				<input type="radio" name="!)" value="нет">
+				<label for="radio">нет</label>
+			</div>
+			<div class="checkbox">
+				<p>В чем бы вы хотели поучаствовать на фестивале?</p>
+				<input type="checkbox" name="поучаствовать в конкурсее косплеев" value="поучаствовать в конкурсее косплеев">
+				<label for="checkbox">поучаствовать в конкурсее косплеев</label><br>
+				<input type="checkbox" name="поучаствовать в сценке из аниме" value="поучаствовать в сценке из аниме">
+				<label for="checkbox">поучаствовать в сценке из аниме</label><br>
+				<input type="checkbox" name="сделать профессиональные фоточки" value="сделать профессиональные фоточки">
+				<label for="checkbox">сделать профессиональные фоточки</label><br>
+				<input type="checkbox" name="купить мерчь" value="купить мерчь">
+				<label for="checkbox">купить мерчь</label><br>
+				<input type="checkbox" name="познакомиться с авторами озвучки" value="познакомиться с авторами озвучки">
+				<label for="checkbox">познакомиться с авторами озвучки</label><br>
+			</div>
+			<div class="spicok">
+				<p>Укажите город проведения фестиваля:</p>
+				<select name="subject" size="1" style="font-family:Comic Sans MS">
+					<option value="sub1">Москва</option>
+					<option value="sub2">Мурманск </option>
+					<option value="sub3">Самара</option>
+					<option value="sub4">Санкт-Петербург</option>
+					<option value="sub5">Вологда</option>
+				</select>
+			</div>
+			<div class="date">
+				<p>Укажите дату проведения:</p>
+				<input type="date" name="calendar" value="2022-01-06" max="2022-12-12" min="2022-01-01">
+			</div>
+			<div class="button">
+				<input type="button" name="but_1" value="отправить"></button>
+				<input type="button"name="but_2" value="все стереть"></button>
+			</div>
+		</form>
+	</body>
+</html>
